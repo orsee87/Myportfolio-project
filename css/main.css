@@ -1,0 +1,230 @@
+body{
+  font-family:'Cabin Sketch', 'Jura','Lobster','Roboto';
+}
+header{
+  font-family:'Cabin Sketch', 'Roboto';
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+  }
+.half-width{
+  width: 600px;
+  float: left;
+}
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+header {
+    height:740px;
+    background:url('../img/girl-with-backpack.jpg');
+    background-size: cover;
+    padding-bottom: 0px;
+}
+header h1 {
+
+    padding: 50px 0;
+    font: 'Cabin Sketch';
+    font-size:50px;
+      color: #3a9966;
+}
+nav {
+    float: right;
+    padding: 75px 40px;
+
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a {
+    font:'Roboto';
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:20px;
+    color: white;
+    padding-left: 80px;
+    font-weight: bold;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    float: left;
+    font-family:'Jura';
+    font-weight:bold;
+    font-size: 50px;
+    line-height: 80px;
+    color: white;
+    padding: 100px 0px;
+
+}
+header h2 span {
+    font-weight:bold;
+    font-size: 70px;
+    color:#cbf1dd;
+    text-transform:uppercase;
+}
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lobster', serif;
+    font-size:40px;
+    padding-top: 5px;
+}
+
+#about p {
+    font-size: 25px;
+    font-family: 'Jura', serif;
+    line-height: 42px;
+    margin-right:  5px;
+    text-align: justify;
+    padding-bottom: 60px;
+}
+#orsi-img{
+  float: right;
+  padding: 110px 100px;
+
+}
+#skills .full-width {
+    padding: 130px 10px;
+}
+#skills h2 {
+  font-family:'Lobster', serif;
+    font-size:40px;
+    width:190px;
+   padding-top: 80px;
+  }
+
+#skills img {
+
+    padding-bottom: 30px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+#code-img {
+    clear: both;
+    float: right;
+    padding-right: 220px;
+      margin: 12px auto;
+  }
+
+#skills h3 {
+  font-family:'Roboto', serif;
+    font-size:30px;
+    width:190px;
+    margin: 20px auto;
+  }
+
+#skills p {
+    font-family:'Jura', serif;
+    font-size:22px;
+    line-height:30px;
+    padding:  40px;
+
+}
+
+
+
+#work .full-width {
+    padding: 35px 180px;
+}
+#work{
+  clear: both;
+  float: left;
+  background: #e8e8e8;
+
+}
+
+#work h2 {
+  font-family:'Lobster', serif;
+    font-size:40px;
+    width:190px;
+    padding-bottom: 30px;
+  }
+
+#work img {
+
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+#work h3 {
+  font-family:'Roboto', serif;
+    font-size:30px;
+    width:190px;
+    margin: 20px auto;
+
+  }
+
+#work p {
+    font-family:'Jura', serif;
+    font-size:22px;
+    line-height:30px;
+    padding: 0 55px;
+    text-align: center;
+}
+
+#contact .full-width {
+    padding: 200px 0;
+}
+
+#contact h2 {
+    font-family: 'Jura', serif;
+    font-size: 20px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+  #email-header{
+      font-size: 30px;
+      font-family:'Lobster', serif;
+      font-weight: bold;
+      margin: 15px 0px 5px 0px;
+      padding-left:  200px;
+  }
+  #name{
+      font-size: 23px;
+      font-family:'Lobster', serif;
+      font-weight: 400;
+      margin: 15px 0px 5px 0px;
+      padding-left:  210px;
+      padding-bottom: 30px;
+  }
+
+  #contact a {
+      text-decoration: none;
+      color:#3a9966;
+      font-family: 'Jura', serif;
+      font-weight: bold;
+      font-size: 30px;
+      padding-bottom: 100px;
+      padding-left:  100px;
+  }
+
+  #socialmedia-header {
+      font-weight: bold;
+      font-size: 29px;
+      margin: 142px 0 0 0;
+      font-family:'Lobster', serif;
+      padding-left:  170px;
+      padding-bottom: 15px;
+  }
+  #contact ul {
+      list-style:none;
+  }
+  #contact ul li {
+       display: inline-block;
+  }
+  #contact ul img {
+      font-size: 32px;
+
+  }
